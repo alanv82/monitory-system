@@ -16,10 +16,12 @@ export class Server {
   public static start() {
     console.log('Server Started...')
 
-    new SendEmailLogs(
-      emailService,
-      fileSystemLogRopository,
-    ).execute(['alan.18mp@gmail.com'])
+
+              //Emails
+    // new SendEmailLogs(
+    //   emailService,
+    //   fileSystemLogRopository,
+    // ).execute(['alan.18mp@gmail.com'])
     
     // emailService.sendEmailWithAttachements(['alan.18mp@gmail.com']);
 
